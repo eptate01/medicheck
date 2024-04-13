@@ -5,8 +5,6 @@ import torch.optim as optim
 
 x = data
 y = data
-X = data
-Y = data
 
 class PimaClassifier(nn.Module):
     def __init__(self):
